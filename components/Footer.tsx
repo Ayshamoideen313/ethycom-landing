@@ -110,7 +110,7 @@ export default function Footer() {
             href={getWhatsAppLink()}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-sage text-background rounded-md px-5 py-2.5 text-sm font-bold hover:bg-sage-dark transition-colors"
+            className="inline-block bg-hero-dark text-white border border-white/40 rounded-full px-5 py-2.5 text-sm font-bold hover:bg-sage hover:border-sage transition-colors"
           >
             Chat on WhatsApp
           </a>

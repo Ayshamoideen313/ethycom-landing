@@ -110,7 +110,7 @@ export default function TrustStrip() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="px-6 md:px-12 py-16 md:py-24 bg-card">
+    <section ref={sectionRef} className="relative z-0 px-6 md:px-12 py-16 md:py-24 bg-card">
       <div className="max-w-xl mb-12 md:mb-16 font-semibold">
         <p className="text-sage text-md tracking-wide mb-4 font-semibold">
           Why Choose Us

@@ -76,7 +76,7 @@ export default function Branches() {
               <div className="flex items-center gap-3">
                 <a
                   href={`tel:+${WHATSAPP_NUMBER}`}
-                  className="flex items-center gap-1.5 bg-slate text-background rounded-md px-3.5 py-2 text-xs font-bold hover:bg-slate/80 transition-colors"
+                  className="flex items-center gap-1.5 bg-hero-dark text-white rounded-full px-4 py-2 text-xs font-bold hover:bg-hero-dark/80 transition-colors"
                 >
                   <Phone className="w-3.5 h-3.5" strokeWidth={2} />
                   Call Now
@@ -85,7 +85,7 @@ export default function Branches() {
                   href={getWhatsAppLink(`the ${branch.name} branch`)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sage text-xs font-bold hover:underline"
+                  className="flex items-center gap-1.5 border border-hero-dark text-hero-dark rounded-full px-4 py-2 text-xs font-bold hover:bg-hero-dark hover:text-white transition-colors"
                 >
                   Chat →
                 </a>

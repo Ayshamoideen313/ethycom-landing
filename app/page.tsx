@@ -1,4 +1,6 @@
+import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import TaglineStrip from "@/components/TaglineStrip";
 import TrustStrip from "@/components/TrustStrip";
 import About from "@/components/About";
 import StatsBar from "@/components/StatsBar";
@@ -9,15 +11,19 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main>
-      <Hero />
-      <TrustStrip />
-      <About />
-      <StatsBar />
-      <WhyChooseUs />
-      <ProductShowcase />
-      <Branches />
-      <Footer />
-    </main>
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <TaglineStrip />
+        <TrustStrip />
+        <About />
+        <StatsBar />
+        <WhyChooseUs />
+        <ProductShowcase />
+        <Branches />
+        <Footer />
+      </main>
+    </>
   );
 }
